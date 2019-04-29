@@ -1,4 +1,5 @@
 import React,{ Component } from 'react'
+// import foundation from './components/css/foundation'
 class Message extends Component {
 
     constructor(){

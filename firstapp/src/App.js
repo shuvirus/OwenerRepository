@@ -11,6 +11,7 @@ class App extends Component {
         {/* <Greet/>
         <Welcome name="shubham"/> */}
         <Message/>
+        <Greet/>
       </div>
     );
   }
