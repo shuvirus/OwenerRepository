@@ -2,28 +2,30 @@ import React,{ Component } from 'react'
 // import foundation from './components/css/foundation'
 class Message extends Component {
 
-    constructor(){
+    constructor() {
         super();
-        this.state={
-            message:'Welcome visistor'
+        this.state = {
+            message: 'Welcome visistor'
         }
     }
-
-    changeMessage(){
-            this.setState({
-                message:'thsnka for s'
-            })
+    changeMessage() {
+        this.setState({
+            message: 'thsnka for s'
+        })
     }
-
-
     render() {
         return (
-            <div>
-            <h1>Welcome {this.state.message}</h1>
-            <button onClick={()=>this.changeMessage()}>Subscribe</button>
+
+            <div class="log-form">
+                <h2>Login to your account</h2>
+                <form>
+                    <input type="text" title="username" placeholder="username" />
+                    <input type="password" title="username" placeholder="password" />
+                    <button type="submit" class="btn">Login</button>
+                    <a class="forgot" href="#">Forgot Username?</a>
+                </form>
             </div>
         );
     }
 }
-
-export default Message;
+export default Message; 
