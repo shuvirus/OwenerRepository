@@ -8,14 +8,11 @@ class Message extends Component {
             message: 'Welcome visistor'
         }
     }
-
     changeMessage() {
         this.setState({
             message: 'thsnka for s'
         })
     }
-
-
     render() {
         return (
 
@@ -28,9 +25,7 @@ class Message extends Component {
                     <a class="forgot" href="#">Forgot Username?</a>
                 </form>
             </div>
-
         );
     }
 }
-
 export default Message; 
